@@ -1,0 +1,31 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-left{
+    flex: 1;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right{
+    flex: 1;
+    display: flex;
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-one, .l-two, .l-three{
+    flex: 1;
+}
