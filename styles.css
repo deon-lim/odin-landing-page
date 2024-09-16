@@ -142,3 +142,44 @@ body{
     text-align: right;
     width: 750px;
 }
+
+.body-4{
+    background-color: white;
+}
+
+.b4-box{
+    display: flex;
+    background-color: #3882f6;
+    color:white;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.b4-left{
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+#b4-header{
+    font-weight: bold;
+}
+
+
+#b4-btn{
+    background-color:#3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
